@@ -1,0 +1,43 @@
+#container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid: min-content auto/1fr 1fr 1fr;
+}
+#display {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+
+}
+.white-key,.black-key {
+  display:grid;
+  align-items: end;
+}
+#button-div {
+  display:grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+#info {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  display: grid;
+  justify-content: center;
+  align-content: start;
+}
+#keys {
+  grid-row:2/3;
+  grid-column:1/-1;
+}
+.toolbar {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#play{
+  grid-column: 2/3;
+}

@@ -1,0 +1,34 @@
+.black-key,.white-key {
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 5px;
+  border: 1px solid rgba(32, 32, 32, 0.2);
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+  box-shadow: 0px 5px 1px rgba(32, 32, 32, 0.2);
+  float:left;
+  position: relative;
+}
+
+.black-key {
+  background-color: rgb(32, 32, 32);
+  color: #ffffff;
+  z-index: 2;
+  text-shadow: 0px -1px 1px black;
+  width: 2.5em;
+  height: 110px;
+}
+.white-key {
+  background-color: #f1f1ea;
+  color: rgb(32, 32, 32);
+  z-index: 1;
+  width: 3.8em;
+  height: 185px;
+}
+
+#G2, #A2,#B2,#D3,#E3,#G3,#A3,#B3,#D4,#E4,#G4,#A4,#B4,.black-key {
+ margin: 0 0 0 -16px;
+}
+
